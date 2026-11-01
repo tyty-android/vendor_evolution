@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/bootanimation/prebuilts/bootanimation_cyberpunk.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_cyberpunk.zip \
     vendor/lineage/bootanimation/prebuilts/bootanimation_du.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_du.zip \
     vendor/lineage/bootanimation/prebuilts/bootanimation_google.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_google.zip \
+    vendor/lineage/bootanimation/prebuilts/bootanimation_xperia.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_xperia.zip \
     vendor/lineage/bootanimation/prebuilts/bootanimation_pac.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_pac.zip \
     vendor/lineage/bootanimation/prebuilts/bootanimation_prism.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_prism.zip \
     vendor/lineage/bootanimation/prebuilts/bootanimation_prism_dynamic.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation_prism_dynamic.zip \
