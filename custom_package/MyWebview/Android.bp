@@ -1,0 +1,19 @@
+// Platform-signed placeholder for com.android.webview.
+//
+// This package is intentionally not a valid WebView provider: it has no
+// com.android.webview.WebViewLibrary metadata. A later APK signed with the
+// same platform certificate and a higher versionCode can replace it and
+// then be selected as the system WebView.
+//
+// overrides drops external/chromium-webview, which is the same package name
+// but signed with the default dev certificate.
+
+android_app {
+    name: "MyWebview",
+    manifest: "AndroidManifest.xml",
+    certificate: "platform",
+    sdk_version: "current",
+    min_sdk_version: "33",
+    privileged: false,
+    overrides: ["webview"],
+}

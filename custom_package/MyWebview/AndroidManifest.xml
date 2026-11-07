@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Placeholder only. Do not add com.android.webview.WebViewLibrary metadata
+    here. versionCode must stay below the WebView build that replaces it.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.webview"
+    android:versionCode="1"
+    android:versionName="1.0-stub">
+
+    <uses-sdk android:minSdkVersion="33" android:targetSdkVersion="37" />
+
+    <application
+        android:allowBackup="false"
+        android:hasCode="false"
+        android:label="Android System WebView" />
+</manifest>
